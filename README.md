@@ -1,9 +1,9 @@
 criação do método construtor:
 
-public class Produto {
-    public String nome;
-    public String categoria;
-    public double preco;
+    public class Produto {
+        public String nome;
+        public String categoria;
+        public double preco;
 
     public Produto(String nome, String categoria, double preco){
         this.nome = nome;
@@ -32,16 +32,16 @@ os itens são adicionados a Loja usando o método construtor criado anteriorment
 
 criando método construtor:
 
-public class Funcionario {
-    public String nome;
-    public String categoria;
-    public double preco;
-
-public Funcionario(String nome, String cargo, double salario) {
-        this.nome = nome;
-        this.cargo = cargo;
-        this.salario = salario;
-    }
+    public class Funcionario {
+        public String nome;
+        public String categoria;
+        public double preco;
+    
+    public Funcionario(String nome, String cargo, double salario) {
+            this.nome = nome;
+            this.cargo = cargo;
+            this.salario = salario;
+        }
 
 
 public Empresa cria um Array List onde será armazenado os funcionários
